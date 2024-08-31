@@ -1,0 +1,30 @@
+body{
+    background-color: black;
+}
+
+.main{
+    display: flex;
+    text-align: center;
+    font-size: 4rem;
+    margin-top: 30%;
+    font-family: 'Sora', sans-serif;
+}
+
+#aboutme:hover,
+#contactme:hover,
+#github:hover,
+#projects:hover,
+#resume:hover {
+    text-decoration: underline;
+}
+
+#aboutme,
+#contactme,
+#github,
+#projects,
+#resume
+{
+    color: white;
+    text-decoration: None;
+}
+

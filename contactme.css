@@ -1,0 +1,58 @@
+body{
+    background-color: black;
+}
+
+.main{
+    text-align: center;
+    display: flex;
+    font-size: 2rem;
+    font-family: 'Sora', sans-serif;
+}
+
+#aboutme:hover,
+#contactme:hover,
+#github:hover,
+#projects:hover,
+#resume:hover,
+#home:hover {
+    text-decoration: underline;
+}
+
+#aboutme,
+#contactme,
+#github,
+#projects,
+#resume,
+#home
+{
+    color: white;
+    text-decoration: None;
+}
+
+.find{
+    text-align: center;
+    font-size: 3rem;
+    color: white;
+    font-family: 'Sora', sans-serif;
+    margin-top: 70px;
+}
+
+.extra{
+    font-size: 1.5rem;
+    color: white;
+    font-family: 'Sora', sans-serif;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.email{
+    font-size: 1.3rem;
+    color: white;
+    text-decoration: none;
+    font-family: 'Sora', sans-serif;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 20px;
+}

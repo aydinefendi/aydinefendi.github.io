@@ -1,0 +1,54 @@
+body{
+    background-color: black;
+}
+
+.main{
+    text-align: center;
+    display: flex;
+    font-size: 2rem;
+    font-family: 'Sora', sans-serif;
+}
+
+#aboutme:hover,
+#contactme:hover,
+#github:hover,
+#projects:hover,
+#resume:hover,
+#home:hover,
+#gptapp:hover {
+    text-decoration: underline;
+}
+
+#aboutme,
+#contactme,
+#github,
+#projects,
+#resume,
+#home,
+#gptapp
+{
+    color: white;
+    text-decoration: None;
+}
+
+.projects{
+    text-align: center;
+    font-family: 'Sora', sans-serif;
+    color: white;
+    margin-top: 100px;
+}
+
+.voicenote{
+    font-size: 3rem;
+}
+
+.gptstore{
+    font-size: 3rem;
+}
+
+.explanation{
+    text-align: center;
+    font-size: 1.5rem;
+    width: 80%;
+    margin: 0 auto
+}
