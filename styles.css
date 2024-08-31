@@ -1,13 +1,40 @@
-body{
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
     background-color: black;
 }
 
-.main{
+#particles-js {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    background-image: url('');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.main {
+    position: absolute;
+    z-index: 1;
     display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     font-size: 4rem;
-    margin-top: 30%;
     font-family: 'Sora', sans-serif;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
 }
 
 #aboutme:hover,
