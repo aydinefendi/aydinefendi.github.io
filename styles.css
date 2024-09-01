@@ -26,15 +26,24 @@ body {
     position: absolute;
     z-index: 1;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-size: 4rem;
     font-family: 'Sora', sans-serif;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 100%;
+    width: 90%;
+    max-width: 1000px;
+}
+
+.main a {
+    color: white;
+    text-decoration: none;
+    margin: 10px 0;
+    font-size: 12vw;
+    white-space: nowrap;
 }
 
 #aboutme:hover,
@@ -45,13 +54,49 @@ body {
     text-decoration: underline;
 }
 
-#aboutme,
-#contactme,
-#github,
-#projects,
-#resume
-{
-    color: white;
-    text-decoration: None;
+@media (min-width: 768px) {
+    .main {
+        flex-direction: row;
+        flex-wrap: wrap;
+        max-width: 1400px;
+    }
+
+    .main a {
+        font-size: 7vw;
+        margin: 15px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .main a {
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .main a {
+        font-size: 4vw;
+        margin: 0 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .main a {
+        font-size: 4.5vw;
+        margin: 0 8px;
+    }
+}
+
+@media (max-width: 480px) {
+    .main a {
+        font-size: 5vw;
+        margin: 0 5px;
+    }
+}
+
+@media (min-width: 1800px) {
+    .main a {
+        font-size: 60px;
+    }
 }
 
