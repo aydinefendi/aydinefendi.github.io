@@ -9,6 +9,65 @@ body{
     font-family: 'Sora', sans-serif;
 }
 
+@media (max-width: 920px) {
+  
+    .main a {
+        font-size: calc(1rem + 1vw); 
+    }
+}
+
+@media (max-width: 645px) {
+    .main a {
+        font-size: 1rem; 
+    }
+}
+
+@media (max-width: 430px) {
+    .main {
+        justify-content: flex-start;
+    }
+    .main a {
+        font-size: 0.9rem; 
+        margin: 5px 0; 
+    }
+}
+
+@media (max-width: 390px) {
+    .main {
+        justify-content: flex-start;
+    }
+    .main a {
+        font-size: 0.8rem; 
+        margin: 5px 0; 
+    }
+}
+
+.email-container {
+    width: 100%;
+    overflow-x: hidden;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+.email {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.email-text {
+    display: inline-block;
+    font-size: clamp(0.5rem, 3vw, 1.3rem);
+    white-space: nowrap;
+    overflow: visible;
+}
+
+@media (max-width: 480px) {
+    .email-text {
+        font-size: clamp(0.8rem, 2.5vw, 0.8rem);
+    }
+}
+
 #aboutme:hover,
 #contactme:hover,
 #github:hover,
