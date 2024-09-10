@@ -115,3 +115,9 @@ body{
     display: flex;
     margin-top: 20px;
 }
+
+@media (max-width: 430px){
+    .find{
+        font-size: 2.7rem;
+    }
+}
