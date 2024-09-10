@@ -85,6 +85,9 @@ body {
         font-size: 4.5vw;
         margin: 0 8px;
     }
+    #contactme{
+        order: -1;
+    }
 }
 
 @media (max-width: 480px) {
@@ -95,8 +98,23 @@ body {
 }
 
 @media (min-width: 1800px) {
+    .main{
+        flex-wrap: nowrap; /* Prevent wrapping */
+        justify-content: center;
+    }
     .main a {
         font-size: 60px;
     }
 }
 
+@media (max-width: 430px){
+    #contactme{
+        order: -1;
+    }
+}
+
+@media (min-width: 2400px) {
+    .media a {
+        font-size: 72px; /* Cap the maximum font size */
+    }
+}
