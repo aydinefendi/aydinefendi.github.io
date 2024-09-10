@@ -97,5 +97,9 @@ ul.info li {
     font-family: 'Sora', sans-serif;
 }
 
-
+@media (max-width: 430px){
+    .info{
+        font-size: 1.5rem;
+    }
+}
 
