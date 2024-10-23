@@ -73,10 +73,14 @@ body{
 }
 
 .voicenote{
-    font-size: 3rem;
+    font-size: 3.5rem;
 }
 
 .gptstore{
+    font-size: 3rem;
+}
+
+.latexresume{
     font-size: 3rem;
 }
 
@@ -84,5 +88,6 @@ body{
     text-align: center;
     font-size: 1.5rem;
     width: 80%;
-    margin: 0 auto
+    margin: 0 auto;
+    margin-top: -20px;
 }
