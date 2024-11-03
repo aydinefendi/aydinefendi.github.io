@@ -49,7 +49,9 @@ body{
 #projects:hover,
 #resume:hover,
 #home:hover,
-#gptapp:hover {
+#gptapp:hover,
+#latexresume:hover,
+#voicenote:hover{
     text-decoration: underline;
 }
 
@@ -59,7 +61,9 @@ body{
 #projects,
 #resume,
 #home,
-#gptapp
+#gptapp,
+#latexresume,
+#voicenote
 {
     color: white;
     text-decoration: None;
