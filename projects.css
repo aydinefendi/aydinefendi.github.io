@@ -51,7 +51,8 @@ body{
 #home:hover,
 #gptapp:hover,
 #latexresume:hover,
-#voicenote:hover{
+#voicenote:hover,
+#holocron:hover{
     text-decoration: underline;
 }
 
@@ -63,7 +64,8 @@ body{
 #home,
 #gptapp,
 #latexresume,
-#voicenote
+#voicenote,
+#holocron
 {
     color: white;
     text-decoration: None;
