@@ -50,7 +50,7 @@ body {
 #contactme:hover,
 #github:hover,
 #projects:hover,
-#resume:hover {
+#resume:hover{
     text-decoration: underline;
 }
 
