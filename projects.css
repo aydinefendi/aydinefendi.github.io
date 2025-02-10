@@ -52,7 +52,8 @@ body{
 #gptapp:hover,
 #latexresume:hover,
 #voicenote:hover,
-#holocron:hover{
+#holocron:hover, 
+#goread:hover{
     text-decoration: underline;
 }
 
@@ -65,7 +66,8 @@ body{
 #gptapp,
 #latexresume,
 #voicenote,
-#holocron
+#holocron, 
+#goread
 {
     color: white;
     text-decoration: None;
@@ -83,6 +85,10 @@ body{
 }
 
 .holocron{
+    font-size: 3.5rem;
+}
+
+.goread{
     font-size: 3.5rem;
 }
 
