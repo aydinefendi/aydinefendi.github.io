@@ -53,7 +53,8 @@ body{
 #latexresume:hover,
 #voicenote:hover,
 #holocron:hover, 
-#goread:hover{
+#goread:hover,
+#cudamatrix:hover {
     text-decoration: underline;
 }
 
@@ -67,7 +68,8 @@ body{
 #latexresume,
 #voicenote,
 #holocron, 
-#goread
+#goread,
+#cudamatrix
 {
     color: white;
     text-decoration: None;
@@ -78,10 +80,6 @@ body{
     font-family: 'Sora', sans-serif;
     color: white;
     margin-top: 100px;
-}
-
-.voicenote{
-    font-size: 3.5rem;
 }
 
 .holocron{
@@ -96,7 +94,7 @@ body{
     font-size: 3rem;
 }
 
-.latexresume{
+.cudamatrix {
     font-size: 3rem;
 }
 
