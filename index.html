@@ -1,25 +1,168 @@
 <!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aydin Efendi</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
 
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="styles.css" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Sora:wght@190&display=swap" rel="stylesheet">
-        <link rel="icon" type="image/png" href="aeicon.png">
-        <title>AE Webpage</title>
-    </head>
-    <body>
-        <div id="particles-js"></div>
-        <div class="main">
-            <a href='aboutme.html' id='aboutme' class='aboutme'> About me /</a>
-            <a href='https://github.com/aydinefendi' id='github'> Github / </a>
-            <a href='contactme.html' id='contactme'> Contact me / </a>
+        <header>
+            <div class="header-left">
+                <h1>Aydin Efendi</h1>
+                <p class="subtitle-2">Interested in AI &amp; Cyber Security</p>
+            </div>
+            <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                <!-- Icons injected by JS -->
+                <svg id="icon-sun" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="4"/>
+                    <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/>
+                </svg>
+                <svg id="icon-moon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display:none">
+                    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+                </svg>
+            </button>
+        </header>
+
+        <p class="bio">Currently studying Cyber Security at the University of Warwick.</p>
+
+        <!-- Experience -->
+        <p class="section-label">Experience</p>
+        <div class="timeline">
+
+            <div class="item">
+                <div class="item-left">
+                    <div class="logo-box logo-box--contain">
+                        <img id="apple-logo"
+                             src="https://img.logo.dev/apple.com?token=pk_F0lbdLqmR3GMHnUWmJIHAw&retina=true"
+                             data-light="https://img.logo.dev/apple.com?token=pk_F0lbdLqmR3GMHnUWmJIHAw&retina=true"
+                             data-dark="https://cdn.brandfetch.io/domain/apple.com/w/800/h/978/theme/light/logo?c=1id8p1wnV9OSyBt772r"
+                             alt="Apple"
+                             onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                        <span class="logo-fallback" style="display:none">A</span>
+                    </div>
+                    <div class="item-meta">
+                        <a href="https://apple.com" target="_blank" rel="noopener" class="item-name">Apple</a>
+                        <span class="item-year">2026</span>
+                    </div>
+                </div>
+                <span class="item-role">Incoming Security Engineer Intern</span>
+            </div>
+
+            <div class="item">
+                <div class="item-left">
+                    <div class="logo-box">
+                        <img src="logos/callsign.png" alt="Callsign"
+                             onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                        <span class="logo-fallback" style="display:none">C</span>
+                    </div>
+                    <div class="item-meta">
+                        <a href="https://callsign.com" target="_blank" rel="noopener" class="item-name">Callsign</a>
+                        <span class="item-year">2025</span>
+                    </div>
+                </div>
+                <div class="item-right">
+                <span class="item-role">Research Intern</span>
+                    <span class="item-desc">Worked on fraud and anomaly detection</span>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="item-left">
+                    <div class="logo-box">
+                        <img src="logos/senswise.png" alt="Senswise"
+                             onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                        <span class="logo-fallback" style="display:none">S</span>
+                    </div>
+                    <div class="item-meta">
+                        <a href="https://senswise.com" target="_blank" rel="noopener" class="item-name">Senswise</a>
+                        <span class="item-year">2024</span>
+                    </div>
+                </div>
+                <div class="item-right">
+                <span class="item-role">Software Engineer Intern</span>
+                    <span class="item-desc">First intern at an early stage startup</span>
+                </div>
+            </div>
+
         </div>
-        <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-        <script src="particles-config.js"></script>
-    </body>
+
+        <!-- Education -->
+        <p class="section-label">Education</p>
+        <div class="timeline">
+
+            <div class="item">
+                <div class="item-left">
+                    <div class="logo-box">
+                        <img src="logos/warwick.jpg" alt="University of Warwick"
+                             onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                        <span class="logo-fallback" style="display:none">W</span>
+                    </div>
+                    <div class="item-meta">
+                        <a href="https://warwick.ac.uk" target="_blank" rel="noopener" class="item-name">University of Warwick</a>
+                        <span class="item-year">2025 - present</span>
+                    </div>
+                </div>
+                <span class="item-role">BSc Cyber Security</span>
+            </div>
+
+            <div class="item">
+                <div class="item-left">
+                    <div class="logo-box">
+                        <img src="logos/warwick.jpg" alt="University of Warwick"
+                             onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                        <span class="logo-fallback" style="display:none">W</span>
+                    </div>
+                    <div class="item-meta">
+                        <a href="https://warwick.ac.uk" target="_blank" rel="noopener" class="item-name">University of Warwick</a>
+                        <span class="item-year">2024</span>
+                    </div>
+                </div>
+                <span class="item-role">Foundation Programme · CS</span>
+            </div>
+
+        </div>
+
+        <footer>
+            <a href="https://github.com/aydinefendi" target="_blank" rel="noopener">GitHub</a>
+            <a href="https://x.com/aydinefendi18" target="_blank" rel="noopener">X</a>
+            <a href="https://www.linkedin.com/in/aydinefendi/" target="_blank" rel="noopener">LinkedIn</a>
+            <a href="mailto:aydinefendi@icloud.com">Email</a>
+        </footer>
+
+    </div>
+
+    <script>
+        const btn       = document.getElementById('themeToggle');
+        const sun       = document.getElementById('icon-sun');
+        const moon      = document.getElementById('icon-moon');
+        const appleLogo = document.getElementById('apple-logo');
+        const root      = document.documentElement;
+
+        function applyTheme(theme) {
+            root.dataset.theme = theme;
+            sun.style.display  = theme === 'dark' ? 'none'  : 'block';
+            moon.style.display = theme === 'dark' ? 'block' : 'none';
+            if (appleLogo) {
+                appleLogo.src = theme === 'dark'
+                    ? appleLogo.dataset.dark
+                    : appleLogo.dataset.light;
+            }
+        }
+
+        const saved = localStorage.getItem('theme') || 'light';
+        applyTheme(saved);
+
+        btn.addEventListener('click', () => {
+            const next = root.dataset.theme === 'dark' ? 'light' : 'dark';
+            applyTheme(next);
+            localStorage.setItem('theme', next);
+        });
+    </script>
+</body>
 </html>
-
-
-
