@@ -311,17 +311,32 @@ footer a:hover {
     }
 
     .item {
-        flex-wrap: wrap;
-        row-gap: 4px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 4px;
     }
 
     .item-left {
         width: 100%;
     }
 
-    .item-role {
+    .item-right {
+        align-items: flex-start;
+        padding-left: 52px;
+    }
+
+    .item > .item-role {
         padding-left: 52px;
         font-size: 11.5px;
-        text-align: left;
+        white-space: normal;
+    }
+
+    .item-right .item-role {
+        font-size: 11.5px;
+        white-space: normal;
+    }
+
+    .item-right .item-desc {
+        white-space: normal;
     }
 }
